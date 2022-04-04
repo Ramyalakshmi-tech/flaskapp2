@@ -6,13 +6,13 @@ app=Flask(__name__)
 def welcome():
     return render_template("Empdetails.html")
 @app.route('/search')
-def Gallery_page():
+def search_page():
     return render_template("search.html")
 @app.route('/update')
-def Gallery_page():
+def update_page():
     return render_template("update.html")
 @app.route('/delete')
-def Gallery_page():
+def delete_page():
     return render_template("delete.html")
 
 
